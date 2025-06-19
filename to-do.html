@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="to-do.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <audio id="sonidoCompletar" src="./Assets/completion-sound.wav" preload="auto"></audio>
+  <div class="container">
+  <h1>Mi Lista de Tareas</h1>
+  <form id="formulario">
+    <input type="text" id="nuevaTarea" placeholder="Escribe una nueva tarea..." />
+    <button type="submit" id="agregarBtn">Agregar</button>
+  </form>
+  <ul id="listaTareas"></ul>
+</div>
+<div id="contador" style="margin-top: 10px; font-weight: bold;"></div>
+
+  <script src="to-do.js"></script>
+</body>
+</html>
